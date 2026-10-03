@@ -79,3 +79,5 @@ resource "aws_instance" "web" {
     Purpose     = "ecommerce-web"
   }
 }
+
+data "aws_region" "current" {}
